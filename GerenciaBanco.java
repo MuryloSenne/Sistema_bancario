@@ -1,9 +1,10 @@
 import javax.swing.JOptionPane;
 
 public class GerenciaBanco {
+
     public static void main(String[] args) {
         // Introdução e obtenção de informações do usuário
-        String nome = JOptionPane.showInputDialog("Digite seu nome:");
+        String nome = JOptionPane.showInputDialog("Bem-vindo ao sistema de gerenciamento bancário!\nDigite seu nome:");
         String sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome:");
         String cpf = JOptionPane.showInputDialog("Digite seu CPF:");
 
@@ -35,7 +36,7 @@ public class GerenciaBanco {
                     break;
                 case 3:
                     JOptionPane.showMessageDialog(null,
-                            "Obrigado, " + nome + ", por utilizar o sistema. Adeus!");
+                            "Obrigado, " + nome + ", por utilizar o sistema. Até Mais!");
                     System.exit(0);
                 default:
                     JOptionPane.showMessageDialog(null, "Opção inválida. Tente novamente.");
