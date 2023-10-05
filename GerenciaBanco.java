@@ -8,12 +8,7 @@ public class GerenciaBanco {
         String sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome:");
         String cpf = JOptionPane.showInputDialog("Digite seu CPF:");
 
-         // Exibição das informações em caixas de diálogo separadas
-        JOptionPane.showMessageDialog(null, "Nome: " + nome);
-        JOptionPane.showMessageDialog(null, "Sobrenome: " + sobrenome);
-        JOptionPane.showMessageDialog(null, "CPF: " + cpf);
-
-
+       
         // Criação da conta bancária associada ao usuário
         BankAccount bankAccount = new BankAccount(nome, sobrenome, cpf);
 
